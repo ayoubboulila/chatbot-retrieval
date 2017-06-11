@@ -6,6 +6,12 @@
 
 The code here implements the Dual LSTM Encoder model from [The Ubuntu Dialogue Corpus: A Large Dataset for Research in Unstructured Multi-Turn Dialogue Systems](http://arxiv.org/abs/1506.08909).
 
+#### Additions and performed work
+
+# The original code from this blog post was created with TesnorFlow < 1.0
+
+I have made the necessary changes for the code to function properly with the latest version of TensorFlow. Mostly, this meant changing the order of the parameters for various functions, and taking out methods that are deprecated.
+
 #### Setup
 
 This code uses Python 3 and Tensorflow >= 0.9. Clone the repository and install all required packages:
